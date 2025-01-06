@@ -91,7 +91,7 @@ window.addEventListener(
 );
 
 setTimeout(function () {
-  $("#loading-text").html("字体及文件加载可能需要一定时间");
+  $("#loading-text").html("没钱买域名套CDN，可能需要2～3分钟");
 }, 3000);
 
 // 新春灯笼 （ 需要时可取消注释 ）
