@@ -359,7 +359,7 @@ $("#switchmore").on("click", function () {
   } else {
     $("#container").attr("class", "container");
     $("#change").html("Hello&nbsp;World&nbsp;!");
-    $("#change1").html("一个心比天高的人");
+    $("#change1").html("一个有 个性 的人类");
   }
 });
 
