@@ -10,8 +10,8 @@ GitHub：https://github.com/imsyy/home
 版权所有，请勿删除
 */
 let server = "kugou"; //netease: 网易云音乐; tencent: QQ音乐; kugou: 酷狗音乐; xiami: 虾米; kuwo: 酷我
-let type = "playlist"; //song: 单曲; playlist: 歌单; album: 唱片
-let id = "3z19qc98iz3z0a6"; //封面 ID / 单曲 ID / 歌单 ID
+let type = "url"; //song: 单曲; playlist: 歌单; album: 唱片
+let id = "https://m.kugou.com/songlist/gcid_3z19qc98iz3z0a6/?src_cid=3z19qc98iz3z0a6&uid=2350504573&chl=message&iszlist=1"; //封面 ID / 单曲 ID / 歌单 ID
 
 $.ajax({
     url: "https://api.injahow.cn/meting/?server=" + server + "&type=" + type + "&id=" + id,
